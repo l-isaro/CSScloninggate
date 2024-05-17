@@ -590,6 +590,18 @@ video {
   bottom: 0px;
 }
 
+.top-5 {
+  top: 1.25rem;
+}
+
+.right-5 {
+  right: 1.25rem;
+}
+
+.top-10 {
+  top: 2.5rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -1137,6 +1149,14 @@ video {
     right: auto;
   }
 
+  .lg\:right-32 {
+    right: 8rem;
+  }
+
+  .lg\:top-20 {
+    top: 5rem;
+  }
+
   .lg\:mt-auto {
     margin-top: auto;
   }
@@ -1171,6 +1191,10 @@ video {
 
   .lg\:w-4\/5 {
     width: 80%;
+  }
+
+  .lg\:w-auto {
+    width: auto;
   }
 
   .lg\:flex-grow {
@@ -1219,8 +1243,21 @@ video {
     padding-bottom: 5rem;
   }
 
+  .lg\:text-center {
+    text-align: center;
+  }
+
   .lg\:text-5xl {
     font-size: 3rem;
     line-height: 1;
+  }
+
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .lg\:font-bold {
+    font-weight: 700;
   }
 }
