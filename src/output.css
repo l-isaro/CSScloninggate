@@ -1071,6 +1071,10 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:static {
+    position: static;
+  }
+
   .lg\:bottom-auto {
     bottom: auto;
   }
