@@ -315,7 +315,9 @@
           </h2>
           <p class="text-4xl text-center font-thin">2022/2023</p>
         </div>
-        <div class="flex flex-col lg:flex-row justify-between text-3xl mt-8">
+        <div
+          class="flex flex-col lg:flex-row gap-8 lg:gap-0 justify-between text-3xl mt-8"
+        >
           <div class="text-center">
             <p class="font-bold text-4xl">+300</p>
             <p class="font-thin">Courses</p>
@@ -330,11 +332,11 @@
           </div>
         </div>
       </section>
-      <section class="p-28">
+      <section class="px-2 py-10 lg:p-28">
         <h2 class="text-web-brown text-5xl font-thin mb-5">
           Frequently asked questions
         </h2>
-        <div>
+        <div class="hidden lg:inline-block">
           <ul
             class="text-title-grey flex gap-8 border-b border-light-grey font-medium text-lg"
           >
@@ -355,7 +357,14 @@
             </li>
           </ul>
         </div>
-        <div class="flex gap-5 mt-8">
+        <select class="w-full border-2 border-black p-2 lg:hidden">
+          <option>International Students</option>
+          <option>Bachelor's and Integrated Master’s Degrees</option>
+          <option>Master’s Degrees</option>
+          <option>Doctorates</option>
+        </select>
+
+        <div class="flex flex-col lg:flex-row gap-5 mt-8">
           <div class="flex flex-col gap-8">
             <h3 class="text-2xl font-medium text-web-grey">
               International Students
@@ -385,7 +394,7 @@
           <img
             src="https://www.up.pt/portal/media/images/gate-estudantes-internacionais.format-jpeg.jpg"
             alt=""
-            class="w-1/2"
+            class="w-1/2 hidden lg:inline-block"
           />
         </div>
       </section>
