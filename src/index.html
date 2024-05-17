@@ -75,12 +75,12 @@
     <main>
       <section>
         <div
-          class="bg-[url('https://www.up.pt/portal/media/images/estudantes-icbas-lab-2024.format-jpeg.jpg')] bg-cover bg-center p-72 relative"
+          class="bg-[url('https://www.up.pt/portal/media/images/estudantes-icbas-lab-2024.format-jpeg.jpg')] bg-cover bg-center py-60 lg:p-72 relative"
         >
           <div
             class="bg-dark-grey bg-opacity-85 w-full lg:w-1/3 bottom-0 lg:bottom-auto lg:left-28 left-0 p-5 text-white flex flex-col gap-4 items-start absolute"
           >
-            <h2 class="font-medium text-xl w-3/5">
+            <h2 class="font-medium text-xl lg:w-3/5">
               We're in the world's top 200 in 13 areas of study!
             </h2>
             <p class="hidden lg:inline-block">
@@ -357,13 +357,17 @@
             </li>
           </ul>
         </div>
-        <select class="w-full border-2 border-black p-2 lg:hidden">
+        <select class="w-full border-2 border-black p-2 lg:hidden mb-5">
           <option>International Students</option>
           <option>Bachelor's and Integrated Master’s Degrees</option>
           <option>Master’s Degrees</option>
           <option>Doctorates</option>
         </select>
-
+        <img
+          src="https://www.up.pt/portal/media/images/gate-estudantes-internacionais.format-jpeg.jpg"
+          alt=""
+          class="lg:hidden"
+        />
         <div class="flex flex-col lg:flex-row gap-5 mt-8">
           <div class="flex flex-col gap-8">
             <h3 class="text-2xl font-medium text-web-grey">
@@ -399,8 +403,12 @@
         </div>
       </section>
     </main>
-    <footer class="relative px-28 pt-20 pb-10 bg-web-grey text-white font-thin">
-      <div class="grid grid-cols-5 gap-20 border-b-2 border-title-grey pb-10">
+    <footer
+      class="relative px-2 lg:px-28 pt-20 pb-10 bg-web-grey text-white font-thin"
+    >
+      <div
+        class="grid lg:grid-cols-5 gap-10 lg:gap-20 border-b-2 border-title-grey pb-10"
+      >
         <p class="text-web-brown">Media</p>
         <div class="flex flex-col gap-4">
           <p>U.Porto News</p>
@@ -435,7 +443,9 @@
           <p>SIGARRA U.Porto</p>
         </div>
       </div>
-      <div class="mt-16 flex justify-between">
+      <div
+        class="mt-16 flex flex-col lg:flex-row gap-5 lg:gap-0 justify-between"
+      >
         <div class="flex gap-8 text-white text-2xl">
           <i class="ri-newspaper-line"></i>
           <i class="ri-instagram-line"></i>
@@ -444,7 +454,7 @@
           <i class="ri-twitter-x-line"></i>
           <i class="ri-facebook-fill"></i>
         </div>
-        <div class="flex flex-col gap-4">
+        <div class="flex flex-col lg:gap-4">
           <p><strong class="font-medium">Contacts</strong></p>
           <p class="font-medium">Reitoria da Universidade do Porto</p>
           <div>
@@ -458,7 +468,7 @@
         </div>
       </div>
       <div>
-        <ul class="flex gap-4 mt-4">
+        <ul class="flex flex-col lg:flex-row lg:gap-4 mt-4">
           <li class="font-medium">&copy; University of Porto 2024</li>
           <li>Personal Data Protection</li>
           <li>Privacy Policy</li>
